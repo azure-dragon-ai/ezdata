@@ -4,7 +4,6 @@ VOLUME /tmp
 ENV LANG en_US.UTF-8
 RUN echo "server {  \
                       listen       80; \
-                      server_name  _; \
                       location   /jeecgboot/ { \
                       proxy_pass              http://jeecg-boot-system:8080/jeecg-boot/; \
                       proxy_redirect          off; \
@@ -27,6 +26,5 @@ RUN echo "server {  \
     &&  mkdir -p /var/www/html
 
 ADD dist/ /var/www/html/
-ADD nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 EXPOSE 443
