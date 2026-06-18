@@ -2,7 +2,7 @@ version: "3"  # docker-compose版本
 services:
   # nginx
   web:
-    image: "ezdata123/ezdata-web:latest"     # 镜像名称
+    image: "yiluxiangbei/igdata-web:latest"     # 镜像名称
     container_name: ezdata_web     # 容器名字
     restart: always     # 开机自动重启
     ports:
