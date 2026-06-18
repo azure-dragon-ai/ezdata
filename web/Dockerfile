@@ -27,5 +27,6 @@ RUN echo "server {  \
     &&  mkdir -p /var/www/html
 
 ADD dist/ /var/www/html/
+ADD nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 EXPOSE 443
