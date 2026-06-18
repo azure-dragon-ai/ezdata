@@ -126,7 +126,7 @@ export const usePermissionStore = defineStore({
     async changePermissionCode() {
       const systemPermission = await getBackMenuAndPerms();
       const codeList = systemPermission.auth.map((item) => item.action);
-      // ezdata：兼容旧版
+      // igdata：兼容旧版
       // const codeList = systemPermission.codeList;
       this.setPermCodeList(codeList);
       this.setAuthData(systemPermission);

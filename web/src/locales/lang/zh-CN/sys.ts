@@ -67,7 +67,7 @@ export default {
     signUpFormTitle: '注册',
     forgetFormTitle: '重置密码',
 
-    signInTitle: 'ezdata',
+    signInTitle: 'igdata',
     signInDesc: '',
     policy: '我同意隐私政策',
     scanSign: `扫码后，即可完成登录`,

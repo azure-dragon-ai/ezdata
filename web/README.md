@@ -1,5 +1,5 @@
-## ezdata frontend
-ezdata前端，基于jeecg低代码平台Vue3版本开发。采用 Vue3.0、Vite、 Ant-Design-Vue3、TypeScript 等新技术方案，包括二次封装组件、utils、hooks、动态菜单、权限校验、按钮级别权限控制等功能
+## igdata frontend
+igdata前端，基于jeecg低代码平台Vue3版本开发。采用 Vue3.0、Vite、 Ant-Design-Vue3、TypeScript 等新技术方案，包括二次封装组件、utils、hooks、动态菜单、权限校验、按钮级别权限控制等功能
 ## 技术文档
 基于JeecgBoot 低代码平台 Vue3版本开发，增加了monaco-editor等自定义组件，开发文档可直接参考：
 *   [JeecgBoot-Vue3文档](http://help.jeecg.com)
@@ -9,7 +9,7 @@ ezdata前端，基于jeecg低代码平台Vue3版本开发。采用 Vue3.0、Vite
 - Get the project code
 
 ```bash
-git clone https://github.com/xuwei95/ezdata_frontend.git
+git clone https://github.com/xuwei95/igdata_frontend.git
 ```
 
 - Installation dependencies
