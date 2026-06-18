@@ -1,0 +1,1 @@
+2026/06/18 07:24:33 [error] 28#28: *18 directory index of "/usr/share/nginx/html/dist/" is forbidden, client: 192.168.140.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.140.129:8090"
