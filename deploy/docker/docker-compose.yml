@@ -66,7 +66,7 @@ services:
       - web_worker=4 # web api 并发数
       - run_scheduler=1 # 是否运行scheduler api
       - run_flower=1 # 是否运行celery flower监控
-      - run_worker=0 # 是否运行celery worker
+      - run_worker=1 # 是否运行celery worker
       - run_sandbox=0 # 是否运行sandbox
       - sandbox_worker=4 # sandbox 并发数
       - worker_concurrency=4 # celery worker 并发数
